@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Burger</title>
+</head>
+    <body>
+
+        <!-- Core part -->
+
+        <!-- INGREDIENTS BOX -->
+        <div class="core">
+            <div class="container">
+                <div class="row">
+                     <div class="col-6 box pdg">
+                        <div class="img">
+                            <img src="./img/cheese.svg" alt="">
+                            <span>Cheese</span>
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <label for="cheese-check">add</label>
+                        </div>
+                    </div>
+                    <div class="col-6 box pdg">
+                        <div class="img">
+                            <img src="./img/tomato.svg" alt="">
+                            <span>Tomato</span>
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <label for="cheese-check">add</label>
+                        </div>
+                    </div>
+                     <div class="col-6 box pdg">
+                        <div class="img">
+                            <img src="./img/fried-egg.svg" alt="">
+                            <span>Egg</span>
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <label for="cheese-check">add</label>
+                        </div>
+                    </div>
+                     <div class="col-6 box pdg">
+                        <div class="img">
+                            <img src="./img/lettuce.svg" alt="">
+                            <span>Lettuce</span>
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <label for="cheese-check">add</label>
+                        </div>
+                    </div>
+                     <div class="col-6 box pdg">
+                        <div class="img">
+                            <img src="./img/mustard.svg" alt="">
+                            <span>Mustard</span>
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <label for="cheese-check">add</label>
+                        </div>
+                    </div>
+                    <div class="col-6 box pdg">
+                        <div class="img">
+                            <img src="./img/ketchup.svg" alt="">
+                            <span>Ketchup</span>
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <label for="cheese-check">add</label>
+                        </div>
+                    </div>
+
+                    <div class="discount col-12 pdg">
+                        <span>Discount Coupon</span>
+                        <input type="text" id="discount" placeholder="Codice coupon">
+                    </div>
+                    
+                    <div class="total col-12 tac pdg">
+                        <button id="total-button">Calulate</button>
+                    </div>
+                        
+
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="tac mrg-xl">
+            <div class="container">
+                <div class="row ">
+                    <div class="text col-6"> <h1>Your Price</h1></div>
+                    <div class="text col-6 tacr" id="total"> total</h1></div>
+                    <div></div>
+                </div>
+            </div>
+        </footer>
+
+        <script  type="text/javascript" src="./js/script.js"></script>
+    </body>
+    </html>
