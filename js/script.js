@@ -1,6 +1,7 @@
 var tButton = document.getElementById("total-button");
 var total = document.getElementById("total");
-var discountCode = ["ddxdf","ffccvf","xsdcfs","fxsdfg","dsddsf"]
+var discountCode30 = ["ddxdf","ffccvf","xsdcfs","fxsdfg","dsddsf"];
+var discountCode40 = ["ddxdfd","ffcdcvf","xddcfs","fxsddfg","dsdddsf"];
 var checkItem = document.getElementsByClassName("ingredients");
 
 tButton.addEventListener("click", function(){
@@ -19,10 +20,14 @@ tButton.addEventListener("click", function(){
     if(discount.value.length == 0){
         totalValue = totalValue;
     } else {
-        if( discountCode.includes(discount.value) ){
+        if( discountCode30.includes(discount.value) ){
             totalValue = totalValue * 0.7;
         } else {
-            alert("Il codice inserito non è valido");
+            if( discountCode40.includes(discount.value) ){
+                totalValue = totalValue * 0.6;
+            } else {
+                alert("Il codice inserito non è valido");
+            }
         }
     }
     
