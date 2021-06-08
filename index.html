@@ -11,17 +11,26 @@
 </head>
     <body>
 
-        <!-- Core part -->
+<!-- SEZ 2 -->
+
+        <!-- CORE -->
 
         <!-- INGREDIENTS BOX -->
         <div class="core">
             <div class="container">
                 <div class="row">
+                    <div class="nome-burgher col-12 pdg-xl">
+                        <span>Nome Burgher</span>
+                        <input type="text"  placeholder="Inserisci il nome">
+                    </div>
+                    <div class="col-12 title pdf">
+                        <h2>Ingredients</h2>
+                    </div>
                      <div class="col-6 box pdg">
                         <div class="img">
                             <img src="./img/cheese.svg" alt="">
                             <span>Cheese</span>
-                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="3">
                             <label for="cheese-check">add</label>
                         </div>
                     </div>
@@ -29,7 +38,7 @@
                         <div class="img">
                             <img src="./img/tomato.svg" alt="">
                             <span>Tomato</span>
-                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="2">
                             <label for="cheese-check">add</label>
                         </div>
                     </div>
@@ -37,7 +46,7 @@
                         <div class="img">
                             <img src="./img/fried-egg.svg" alt="">
                             <span>Egg</span>
-                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="4">
                             <label for="cheese-check">add</label>
                         </div>
                     </div>
@@ -45,7 +54,7 @@
                         <div class="img">
                             <img src="./img/lettuce.svg" alt="">
                             <span>Lettuce</span>
-                            <input type="checkbox" id="cheese-check" class="ingredients" value="1">
+                            <input type="checkbox" id="cheese-check" class="ingredients" value="2">
                             <label for="cheese-check">add</label>
                         </div>
                     </div>
@@ -66,26 +75,27 @@
                         </div>
                     </div>
 
-                    <div class="discount col-12 pdg">
+                    <!-- DISCOUNT\ -->
+                    <div class="discount-code col-12 pdg">
                         <span>Discount Coupon</span>
-                        <input type="text" id="discount" placeholder="Codice coupon">
+                        <input type="text" id="discountC" placeholder="Codice coupon">
                     </div>
                     
                     <div class="total col-12 tac pdg">
                         <button id="total-button">Calulate</button>
                     </div>
-                        
-
-
                 </div>
             </div>
         </div>
 
+<!-- SEZ 3 -->
+
+        <!-- FOOTER -->
         <footer class="tac mrg-xl">
             <div class="container">
                 <div class="row ">
                     <div class="text col-6"> <h1>Your Price</h1></div>
-                    <div class="text col-6 tacr" id="total"> total</h1></div>
+                    <div class="text col-6 tacr" id="total"> <h1>Total</h1> </div>
                     <div></div>
                 </div>
             </div>

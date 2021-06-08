@@ -90,17 +90,24 @@
 
 /* SEZ 1 */
 
+/* SEZ 2*/
+
     /* INGREDIENTS BOX */
     .box img{
         height: 60px;
         width:auto;
     }
+   
+/* SEZ 3*/    
 
     /* FOOTE */
     footer{
         height: 100px;
         background-color: blueviolet;
     }
+
+
+    
     /* SMALL TOP BAR */
     .small-top-bar{ 
         height: 36px;
